@@ -3,12 +3,12 @@
     <tr>
       <td align="center" width="50%">
         <a href="https://github.com/Your-Voldemort/StudentStack">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=StudentStack&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="StudentStack" width="100%"/>
+          <img src="./profile/pin-studentstack.svg" alt="StudentStack" width="100%"/>
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://github.com/Your-Voldemort/Payment-Gateway-Checker">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=Payment-Gateway-Checker&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="Payment-Gateway-Checker" width="100%"/>
+          <img src="./profile/pin-payment-gateway-checker.svg" alt="Payment-Gateway-Checker" width="100%"/>
         </a>
       </td>
     </tr>
@@ -53,24 +53,24 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/Your-Voldemort/StudentStack">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=StudentStack&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="StudentStack" width="100%"/>
+        <img src="./profile/pin-studentstack.svg" alt="StudentStack" width="100%"/>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/Your-Voldemort/Payment-Gateway-Checker">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=Payment-Gateway-Checker&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="Payment Gateway Checker" width="100%"/>
+        <img src="./profile/pin-payment-gateway-checker.svg" alt="Payment Gateway Checker" width="100%"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/Your-Voldemort/Shadow-Ledger">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=Shadow-Ledger&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="Shadow Ledger" width="100%"/>
+        <img src="./profile/pin-shadow-ledger.svg" alt="Shadow Ledger" width="100%"/>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/Your-Voldemort/Universal-Log-Pre-processing-Framework">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Your-Voldemort&repo=Universal-Log-Pre-processing-Framework&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF" alt="Universal Log Pre-processing Framework" width="100%"/>
+        <img src="./profile/pin-universal-log-pre-processing-framework.svg" alt="Universal Log Pre-processing Framework" width="100%"/>
       </a>
     </td>
   </tr>

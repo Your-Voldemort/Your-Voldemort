@@ -1,0 +1,65 @@
+name: Generate README Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - ".github/workflows/readme-cards.yml"
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate StudentStack pin
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Your-Voldemort&repo=StudentStack&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF
+          path: profile/pin-studentstack.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Payment-Gateway-Checker pin
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Your-Voldemort&repo=Payment-Gateway-Checker&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF
+          path: profile/pin-payment-gateway-checker.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Shadow-Ledger pin
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Your-Voldemort&repo=Shadow-Ledger&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF
+          path: profile/pin-shadow-ledger.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Universal-Log-Pre-processing-Framework pin
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Your-Voldemort&repo=Universal-Log-Pre-processing-Framework&theme=dark&title_color=B347FF&text_color=ffffff&bg_color=0d1117&border_color=B347FF
+          path: profile/pin-universal-log-pre-processing-framework.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet || git commit -m "chore: update readme cards"
+          git push

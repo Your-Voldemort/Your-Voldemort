@@ -10,6 +10,10 @@ on:
     paths-ignore:
       - "profile-3d-contrib/**"
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest

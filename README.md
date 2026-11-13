@@ -34,7 +34,7 @@
 ### 📈 3D Contribution Calendar
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-purple-animate.svg" alt="3D Contribution Calendar" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
 </div>
 
 <div align="center">
